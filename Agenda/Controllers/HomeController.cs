@@ -18,10 +18,27 @@ namespace Agenda.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult NovoContato()
         {
             return View();
         }
+
+        public IActionResult VisualizarContato()
+        {
+            return View();
+        }
+
+        public IActionResult EditarContato()
+        {
+            return View();
+        }
+
+        public IActionResult ExcluirContato()
+        {
+            return View();
+        }
+
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
